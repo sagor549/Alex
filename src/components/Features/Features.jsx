@@ -10,7 +10,7 @@ const featuresList = [
   {
     icon: <BarChart3 className="w-10 h-10 text-blue-600 dark:text-blue-400" />,
     title: "Crop Health Analytics",
-    description: "Advanced vegetation index analysis using NDVI, NDWI, and NDMI for precise crop monitoring"
+    description: "Advanced vegetation index analysis using Crop health, Water stress, and Plant humidity for precise crop monitoring"
   },
   {
     icon: <Shield className="w-10 h-10 text-blue-600 dark:text-blue-400" />,
@@ -27,11 +27,7 @@ const featuresList = [
     title: "Farm Team Collaboration",
     description: "Real-time collaboration tools for agronomists and field teams"
   },
-  {
-    icon: <Layers className="w-10 h-10 text-blue-600 dark:text-blue-400" />,
-    title: "Satellite Integration",
-    description: "Direct integration with Sentinel-2 and Landsat 8 satellite imagery"
-  },
+  
   {
     icon: <Lock className="w-10 h-10 text-blue-600 dark:text-blue-400" />,
     title: "Role-Based Field Access",

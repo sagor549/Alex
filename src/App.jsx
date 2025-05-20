@@ -10,7 +10,6 @@ import CardAPIGuide from "./components/HomeCards/CardAPIGuide";
 
 import { MyThemeContext } from "./provider/ThemeContext";
 
-import "./assets/styles/scrollbar.css";
 import "./assets/styles/markdown-container.css";
 import "./assets/styles/index.css";
 import Review from "./components/review/Review";

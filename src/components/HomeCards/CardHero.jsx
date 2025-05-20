@@ -36,7 +36,7 @@ export default function CardHero() {
                 variants={fadeIn("up", "tween", 0.4, 1)}
                 className="mb-8 text-lg text-dark-text leading-relaxed"
               >
-                Transform your farm with precision agriculture technology. Get real-time insights into coffee health, water stress, and crop conditions to maximize yield and sustainability.
+                Precision Agriculture to help coffee growing, and soon other grains
               </motion.p>
 
               <div className="space-y-4 mb-12">

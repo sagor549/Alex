@@ -172,7 +172,6 @@ export default function CardAPIGuide() {
           </p>
         </motion.div>
 
-        // Update the ReactPlayer section with these changes
 <motion.div variants={itemAnimation} className="mb-12">
   <div className="relative w-full aspect-video rounded-xl overflow-hidden bg-gray-100 dark:bg-gray-800 shadow-xl border border-gray-200 dark:border-gray-800">
     <ReactPlayer 

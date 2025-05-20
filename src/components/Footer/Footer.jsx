@@ -1,16 +1,23 @@
 export default function Footer() {
   return (
     <footer id="contact" className="pt-14 sm:pt-20 lg:pt-[130px]">
-      <div className="px-16 xl:container">
+      <div className="px-4 xl:container md:px-8">
         <div className="-mx-4 flex flex-wrap">
+          {/* Logo Section */}
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-4/12">
             <div className="mb-20 max-w-[330px]">
-              <a href="/" className="cursor-pointer inline-block ">
-                <img src="/images/logo.png" alt="logo" className="h-[50px]" />
-                <p className="text-white text-xl leading-[50px] px-5 hidden dark:block">
+              <a href="/" className="inline-flex items-center">
+                <img 
+                  src="/images/logo.png" 
+                  alt="logo" 
+                  className="h-[50px] w-auto"
+                />
+                {/* Dark Mode Text */}
+                <p className="hidden text-xl text-white dark:block ml-3">
                   AgriSense
                 </p>
-                <p className="text-black text-xl leading-[50px] px-5 dark:hidden">
+                {/* Light Mode Text */}
+                <p className="text-xl text-black dark:hidden ml-3">
                   AgriSense
                 </p>
               </a>
@@ -20,6 +27,7 @@ export default function Footer() {
                 grains.
               </p>
               <div className="flex items-center space-x-5">
+                {/* Social Icons remain same */}
                 <a
                   href="#"
                   name="social-link"
@@ -69,33 +77,32 @@ export default function Footer() {
             </div>
           </div>
 
+          {/* Contact Section */}
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-4/12">
             <div className="mb-20">
-              <h3 className="mb-9 font-heading text-2xl font-medium text-dark dark:text-white">
+              <h3 className="mb-9 text-2xl font-medium text-dark dark:text-white">
                 Get in touch
               </h3>
 
               <div className="space-y-7">
                 <div>
-                  <p className="font-heading text-base text-dark-text">
+                  <p className="text-base text-dark-text">
                     Toll Free Customer Care
                   </p>
                   <a
                     href="tel:+(1) 123 456 7890"
-                    target="new"
-                    className="font-heading text-base text-dark hover:text-primary dark:text-white dark:hover:text-primary"
+                    className="text-base text-dark hover:text-primary dark:text-white dark:hover:text-primary"
                   >
                     +(1) 123 456 7890
                   </a>
                 </div>
                 <div>
-                  <p className="font-heading text-base text-dark-text">
+                  <p className="text-base text-dark-text">
                     Need live support?
                   </p>
                   <a
                     href="mailto:contact@agrisenseapps.com"
-                    target="new"
-                    className="font-heading text-base text-dark hover:text-primary dark:text-white dark:hover:text-primary"
+                    className="text-base text-dark hover:text-primary dark:text-white dark:hover:text-primary"
                   >
                     contact@agrisenseapps.com
                   </a>
@@ -104,21 +111,20 @@ export default function Footer() {
             </div>
           </div>
 
+          {/* Newsletter Section */}
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-4/12">
             <div className="mb-20">
-              <h3 className="mb-9 font-heading text-2xl font-medium text-dark dark:text-white">
+              <h3 className="mb-9 text-2xl font-medium text-dark dark:text-white">
                 Newsletter
               </h3>
-              <p className="mb-6 font-heading text-base text-dark-text">
+              <p className="mb-6 text-base text-dark-text">
                 Subscribe to receive future updates
               </p>
               <form className="relative">
                 <input
                   type="email"
-                  name="email"
-                  id="email"
                   placeholder="Email address"
-                  className="pladeholder-opacity-40 w-full rounded border py-3 pl-5 pr-12 text-base text-dark-text outline-none focus:border-primary dark:border-transparent dark:bg-[#2C3443]"
+                  className="w-full rounded border py-3 pl-5 pr-12 text-base text-dark-text outline-none focus:border-primary dark:border-transparent dark:bg-[#2C3443]"
                 />
                 <button className="absolute right-0 top-0 flex h-full w-12 items-center justify-center border-l text-dark-text dark:border-[#1F2633]">
                   <svg
@@ -135,39 +141,35 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="dark:border-[#2E333D] md:border-t">
-          <div className="-mx-4 flex flex-wrap py-5 md:py-7">
-            <div className="w-full px-4 md:w-1/2 lg:w-2/3">
-              <div className="mb-5 flex items-center justify-center space-x-5 border-b pb-5 dark:border-[#2E333D] md:mb-0 md:justify-start md:border-0 md:pb-0">
+        {/* Bottom Footer */}
+        <div className="border-t dark:border-[#2E333D]">
+          <div className="flex flex-wrap items-center justify-between py-5 md:py-7">
+            <div className="mb-5 w-full md:mb-0 md:w-auto">
+              <div className="flex flex-wrap items-center justify-center space-x-5 md:justify-start">
                 <a
-                  href="https://www.termsfeed.com/live/dc3248a2-c0a9-456a-b267-06316217fc79"
-                  target="new"
-                  className="font-heading text-base text-dark-text hover:text-primary"
+                  href="#"
+                  className="text-base text-dark-text hover:text-primary"
                 >
                   Terms and Conditions
                 </a>
                 <a
-                  href="https://www.termsfeed.com/live/c078e689-ff82-480f-81f4-583bf82454e9"
-                  target="new"
-                  className="font-heading text-base text-dark-text hover:text-primary"
+                  href="#"
+                  className="text-base text-dark-text hover:text-primary"
                 >
                   Privacy Policy
                 </a>
                 <a
                   href="mailto:contact@agrisenseapps.com"
-                  target="new"
-                  className="font-heading text-base text-dark-text hover:text-primary"
+                  className="text-base text-dark-text hover:text-primary"
                 >
                   Contact
                 </a>
               </div>
             </div>
-            <div className="w-full px-4 md:w-1/2 lg:w-1/3">
-              <div>
-                <p className="text-center font-heading text-base text-dark-text lg:text-right">
-                  2024 © Made by AgriSense
-                </p>
-              </div>
+            <div className="w-full md:w-auto">
+              <p className="text-center text-base text-dark-text md:text-right">
+                2024 © Made by AgriSense
+              </p>
             </div>
           </div>
         </div>

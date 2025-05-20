@@ -3,7 +3,7 @@ import { InfiniteMovingCards } from "../ui/infinite-moving-cards";
 import { MyThemeContext } from "../../provider/ThemeContext";
 
 const testimonials = [
-  // ... (keep the testimonials array the same)
+  
   {
     quote: "AgriSense's pest prediction models helped us reduce crop losses by 40% in the first season alone. The satellite integration is a game-changer!",
     name: "Juan Rodriguez",
