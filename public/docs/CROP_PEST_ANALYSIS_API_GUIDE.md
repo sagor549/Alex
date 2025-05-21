@@ -183,7 +183,7 @@ By analyzing these results, users can derive valuable insights into environmenta
        - Positive values usually indicate high water content in vegetation.
        - Values near 0 or negative suggest low moisture content, possibly indicating drought conditions or non-vegetated surfaces.
 
-3. **NDMI (Normalized Difference Moisture Index)**:
+3. **Vegetation Mositure (Normalized Difference Moisture Index)**:
 
    - **Purpose**: Evaluates vegetation moisture content.
    - **Typical Range**: -1 to 1
