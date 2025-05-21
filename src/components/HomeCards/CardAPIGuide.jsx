@@ -210,7 +210,7 @@ export default function CardAPIGuide() {
             >
               <div className="flex items-center gap-2">
                 <BookOpen size={16} />
-                <span>Coffee Farmers</span>
+                <span>Farmers</span>
               </div>
             </button>
           </div>
