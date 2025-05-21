@@ -233,12 +233,12 @@ export default function CardAPIGuide() {
               <>
                 <MarkdownDisplay 
                   content={coffeeGuide} 
-                  title="Coffee Farmers Information API Documentation" 
+                  title=" Farmers Information API Documentation" 
                 />
                 <div className="overflow-hidden rounded-2xl shadow-xl border border-gray-200 dark:border-gray-800">
                   <VideoPlayer 
                     url="/videos/COFFEE_FARMERS_INFORMATION_API_GUIDE.mp4" 
-                    title="Coffee Farmers Information API Tutorial" 
+                    title=" Farmers Information API Tutorial" 
                   />
                 </div>
               </>
