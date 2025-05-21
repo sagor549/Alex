@@ -121,7 +121,7 @@ The API returns a JSON object containing insights into various environmental con
 
 - **Insights**: Offers assessments on air quality, crop health, drought risk, fire prevention, flood risk, and pest risk.
 - **Atmospheric Data**: Presents levels of NO2, O3, and SO2.
-- **Indicators (NDMI, Crop Health, Water Stress)**: Provides mean, median, and standard deviation for each index, indicating vegetation health and water content.
+- **Indicators (Vegetation Mositure, Crop Health, Water Stress)**: Provides mean, median, and standard deviation for each index, indicating vegetation health and water content.
 - **Ground temperature (Land Surface Temperature)**: Provides maximum, mean, and minimum values.
 
 By analyzing these results, users can derive valuable insights into environmental conditions affecting crops and pests in a given area. Adjust the request parameters to refine search results based on geographic and temporal specificity.
