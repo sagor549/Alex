@@ -2,7 +2,7 @@
 
 ## Overview
 
-The  Farmers Information API provides access to geographical data of  farmers' locations. By leveraging this API, users can retrieve the latitude, longitude, country, region, and city information for coffee farms, aiding in understanding distribution and location-specific details of coffee production areas.
+The  Farmers Information API provides access to geographical data of  farmers' locations. By leveraging this API, users can retrieve the latitude, longitude, country, region, and city information for  farms, aiding in understanding distribution and location-specific details of  production areas.
 
 ## Making a Request
 
@@ -78,10 +78,10 @@ Upon requesting data, the API returns a JSON object. Here is a breakdown of the 
 - **Status**: Indicates the result of the request. `"success"` signifies successful data retrieval.
 
 - **Locations**: An array containing objects with specified geographic details:
-  - **Latitude**: The latitude coordinate of the coffee farm location.
-  - **Longitude**: The longitude coordinate of the coffee farm location.
-  - **Country**: The country where the coffee farm is located.
+  - **Latitude**: The latitude coordinate of the  farm location.
+  - **Longitude**: The longitude coordinate of the  farm location.
+  - **Country**: The country where the  farm is located.
   - **Region**: The region within the country.
   - **City**: The city or locality associated with the farm location.
 
-By analyzing the response, users can obtain comprehensive geographical insights into coffee farming locations, which can be instrumental for further research, market analysis, or logistical planning. Adjust the implementation according to your specific needs, testing, or integrating with larger systems if required.
+By analyzing the response, users can obtain comprehensive geographical insights into  farming locations, which can be instrumental for further research, market analysis, or logistical planning. Adjust the implementation according to your specific needs, testing, or integrating with larger systems if required.
