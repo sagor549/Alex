@@ -124,7 +124,7 @@ export default function CardHero() {
                   className="group relative inline-flex h-12 overflow-hidden rounded-full bg-primary px-6 py-2 hover:bg-primary/90"
                 >
                   <div className="absolute -inset-[20px] bg-primary/10 [mask-image:radial-gradient(farthest-side_at_top,white,transparent)] group-hover:animate-[spotlight_1s_ease_forwards]" />
-                  <span className="relative flex items-center justify-center text-sm font-medium text-white">
+                  <span className="relative flex items-center justify-center text-sm font-medium text-white hidden md:block ">
                     Get Pro Access
                     <svg className="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24">
                       <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13.75 6.75L19.25 12L13.75 17.25M19 12H4.75"/>
@@ -132,7 +132,7 @@ export default function CardHero() {
                   </span>
                 </motion.a>
                 
-                <div className="ml-4 flex gap-2 flex-wrap">
+                <div className="ml-4 flex gap-2 flex-wrap hidden md:block">
                   {['Cherry Detection', 'Premium Features'].map((text, index) => (
                     <motion.div
                       key={index}
