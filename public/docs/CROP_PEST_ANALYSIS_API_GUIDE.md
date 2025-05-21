@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Crop and Pest Analysis API utilizes satellite data to provide insights into crop health and pest risks. It processes data related to vegetation indices, surface temperatures, and atmospheric conditions, helping users understand agricultural risks and conditions.
+The Crop and Pest Analysis API utilizes satellite data to provide insights into crop health and pest risks. It processes data related to vegetation Indicators, surface temperatures, and atmospheric conditions, helping users understand agricultural risks and conditions.
 
 ## Authentication
 
@@ -76,7 +76,7 @@ Use the given credentials to sign in and receive a token. Implement the process 
 
 ## Interpreting the Response
 
-The API returns a JSON object containing insights into various environmental conditions. Key components include atmospheric data, insights, vegetation indices, and land surface temperature (Ground temperature).
+The API returns a JSON object containing insights into various environmental conditions. Key components include atmospheric data, insights, vegetation Indicators, and land surface temperature (Ground temperature).
 
 ### Example Response
 
@@ -97,7 +97,7 @@ The API returns a JSON object containing insights into various environmental con
       "mean": 223.29843139648438,
       "min": 221.8699951171875
     },
-    "NDMI": {
+    "Vegetation Mositure": {
       "mean": 0.193851500749588,
       "median": 0.21999868750572205,
       "std_dev": 0.16626955568790436
@@ -121,7 +121,7 @@ The API returns a JSON object containing insights into various environmental con
 
 - **Insights**: Offers assessments on air quality, crop health, drought risk, fire prevention, flood risk, and pest risk.
 - **Atmospheric Data**: Presents levels of NO2, O3, and SO2.
-- **Indices (NDMI, Crop Health, Water Stress)**: Provides mean, median, and standard deviation for each index, indicating vegetation health and water content.
+- **Indicators (NDMI, Crop Health, Water Stress)**: Provides mean, median, and standard deviation for each index, indicating vegetation health and water content.
 - **Ground temperature (Land Surface Temperature)**: Provides maximum, mean, and minimum values.
 
 By analyzing these results, users can derive valuable insights into environmental conditions affecting crops and pests in a given area. Adjust the request parameters to refine search results based on geographic and temporal specificity.
@@ -164,7 +164,7 @@ By analyzing these results, users can derive valuable insights into environmenta
   - **Medium**: Potential flooding risk; requires monitoring.
   - **High**: High potential for flooding; immediate mitigation measures needed.
 
-### Indices Used and Their Ranges
+### Indicators Used and Their Ranges
 
 1. **Crop Health (Normalized Difference Vegetation Index)**:
 
@@ -225,4 +225,4 @@ By analyzing these results, users can derive valuable insights into environmenta
        - Low or zero levels are ideal.
        - Elevated levels can be harmful to vegetation and human health.
 
-Understanding these indices and their ranges helps interpret environmental data accurately, guiding decision-making in agricultural management and environmental conservation.
+Understanding these Indicators and their ranges helps interpret environmental data accurately, guiding decision-making in agricultural management and environmental conservation.

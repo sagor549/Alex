@@ -1,12 +1,12 @@
-# User Guide: Coffee Farmers Information API
+# User Guide:  Farmers Information API
 
 ## Overview
 
-The Coffee Farmers Information API provides access to geographical data of coffee farmers' locations. By leveraging this API, users can retrieve the latitude, longitude, country, region, and city information for coffee farms, aiding in understanding distribution and location-specific details of coffee production areas.
+The  Farmers Information API provides access to geographical data of  farmers' locations. By leveraging this API, users can retrieve the latitude, longitude, country, region, and city information for coffee farms, aiding in understanding distribution and location-specific details of coffee production areas.
 
 ## Making a Request
 
-To access the Coffee Farmers Information API:
+To access the  Farmers Information API:
 
 ### Obtain a JWT Token
 
