@@ -17,7 +17,7 @@ Use the given credentials to sign in and receive a token. Implement the process 
 Access the following endpoint for data requests:
 
 ```text
-http://localhost:5000/api/coffee-farmers
+http://localhost:5000/api/farmers
 ```
 
 ### Request Headers
@@ -40,7 +40,7 @@ To interact with the API and obtain location details:
    import requests
 
    # Define endpoint
-   url = 'http://localhost:5000/api/coffee-farmers/'
+   url = 'http://localhost:5000/api/farmers/'
 
    # Perform GET request
    response = requests.get(url)
