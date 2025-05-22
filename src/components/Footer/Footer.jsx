@@ -1,3 +1,4 @@
+import whatsapp from "/images/whatsapp.png"
 export default function Footer() {
   return (
     <footer id="contact" className="pt-14 sm:pt-20 lg:pt-[130px]">
@@ -23,8 +24,7 @@ export default function Footer() {
               </a>
 
               <p className="my-10 text-base text-dark-text">
-                Precision Agriculture to help coffee growing, and soon other
-                grains.
+                Precision growing for a smarter harvest
               </p>
               <div className="flex items-center space-x-5">
                 {/* Social Icons remain same */}
@@ -85,17 +85,19 @@ export default function Footer() {
               </h3>
 
               <div className="space-y-7">
-                <div>
-                  <p className="text-base text-dark-text">
-                    Toll Free Customer Care
-                  </p>
-                  <a
-                    href="tel:+(1) 123 456 7890"
-                    className="text-base text-dark hover:text-primary dark:text-white dark:hover:text-primary"
-                  >
-                    +(1) 123 456 7890
-                  </a>
-                </div>
+              <div>
+  <p className="text-base text-dark-text">Toll Free Customer Care</p>
+  <div className="flex items-center space-x-2">
+    <a
+      href="tel:+(1) 919 360 1119"
+      className="text-base text-dark hover:text-primary dark:text-white dark:hover:text-primary"
+    >
+      +(1)919 360 1119
+    </a>
+    <img src={whatsapp} alt="WhatsApp" className="w-5 h-5" />
+  </div>
+</div>
+
                 <div>
                   <p className="text-base text-dark-text">
                     Need live support?
@@ -168,7 +170,7 @@ export default function Footer() {
             </div>
             <div className="w-full md:w-auto">
               <p className="text-center text-base text-dark-text md:text-right">
-                2024 © Made by AgriSense
+                2025 © Made by AgriSense
               </p>
             </div>
           </div>

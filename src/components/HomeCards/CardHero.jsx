@@ -36,7 +36,7 @@ export default function CardHero() {
                 variants={fadeIn("up", "tween", 0.4, 1)}
                 className="mb-8 text-lg text-dark-text leading-relaxed"
               >
-                Precision Agriculture to help coffee growing, and soon other grains
+                The Future of Farming is Here
               </motion.p>
 
               <div className="space-y-4 mb-12">
@@ -45,7 +45,7 @@ export default function CardHero() {
                   {
                     icon: 'M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z',
                     title: 'AgriSense App',
-                    desc: 'Advanced precision agriculture for coffee growing'
+                    desc: 'Advanced precision agriculture for  growing'
                   },
                   {
                     icon: 'M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z',
@@ -104,7 +104,24 @@ export default function CardHero() {
                     <svg className="h-5 w-5 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
                     </svg>
-                    Download AgriSense App (Free)
+                    Download AgriSense On Android (Free)
+                  </span>
+                </motion.a>
+                <div className="relative top-8"></div>
+                <motion.a
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  href="https://apps.apple.com/hn/app/agrisense-premium/id6738309189?l=en-GB"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px]"
+                >
+                  <span className="absolute  inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)] " />
+                  <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-white px-6 text-sm font-medium text-primary backdrop-blur-3xl dark:bg-gray-950 ">
+                    <svg className="h-5 w-5 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+                    </svg>
+                    Download AgriSense On IOS (Free)
                   </span>
                 </motion.a>
                 <p className="ml-4 mt-2 text-xs text-gray-500 dark:text-gray-400">Open twice to activate location services</p>

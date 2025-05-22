@@ -97,7 +97,7 @@ The API returns a JSON object containing insights into various environmental con
       "mean": 223.29843139648438,
       "min": 221.8699951171875
     },
-    "Vegetation Mositure": {
+    "Plant Humidity": {
       "mean": 0.193851500749588,
       "median": 0.21999868750572205,
       "std_dev": 0.16626955568790436
@@ -121,7 +121,7 @@ The API returns a JSON object containing insights into various environmental con
 
 - **Insights**: Offers assessments on air quality, crop health, drought risk, fire prevention, flood risk, and pest risk.
 - **Atmospheric Data**: Presents levels of NO2, O3, and SO2.
-- **Indicators (Vegetation Mositure, Crop Health, Water Stress)**: Provides mean, median, and standard deviation for each index, indicating vegetation health and water content.
+- **Indicators (Plant Humidity, Crop Health, Water Stress)**: Provides mean, median, and standard deviation for each index, indicating vegetation health and water content.
 - **Ground temperature (Land Surface Temperature)**: Provides maximum, mean, and minimum values.
 
 By analyzing these results, users can derive valuable insights into environmental conditions affecting crops and pests in a given area. Adjust the request parameters to refine search results based on geographic and temporal specificity.
@@ -183,7 +183,7 @@ By analyzing these results, users can derive valuable insights into environmenta
        - Positive values usually indicate high water content in vegetation.
        - Values near 0 or negative suggest low moisture content, possibly indicating drought conditions or non-vegetated surfaces.
 
-3. **Vegetation Mositure (Normalized Difference Moisture Index)**:
+3. **Plant Humidity (Normalized Difference Moisture Index)**:
 
    - **Purpose**: Evaluates vegetation moisture content.
    - **Typical Range**: -1 to 1
