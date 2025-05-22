@@ -86,18 +86,19 @@ export default function CardHero() {
                 ))}
               </div>
 
-              {/* Download Button with Hover Animation */}
+              {/* Download Buttons with Proper Spacing */}
               <motion.div
                 variants={fadeIn("up", "tween", 0.8, 1)}
-                className="mb-6"
+                className="mb-6 space-y-4"
               >
+                {/* Android Download Button */}
                 <motion.a
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   href="https://drive.google.com/drive/folders/1o8Mu7e3SCarKbgPaTPfr4keEgNsKgTkA?usp=drive_link"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px]"
+                  className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] w-full max-w-sm"
                 >
                   <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
                   <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-white px-6 text-sm font-medium text-primary backdrop-blur-3xl dark:bg-gray-950">
@@ -107,24 +108,44 @@ export default function CardHero() {
                     Download AgriSense On Android (Free)
                   </span>
                 </motion.a>
-                <div className="relative top-8"></div>
+
+                {/* iOS AgriSense Download Button */}
                 <motion.a
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   href="https://apps.apple.com/hn/app/agrisense-premium/id6738309189?l=en-GB"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px]"
+                  className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] w-full max-w-sm"
                 >
-                  <span className="absolute  inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)] " />
-                  <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-white px-6 text-sm font-medium text-primary backdrop-blur-3xl dark:bg-gray-950 ">
+                  <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+                  <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-white px-6 text-sm font-medium text-primary backdrop-blur-3xl dark:bg-gray-950">
                     <svg className="h-5 w-5 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
                     </svg>
-                    Download AgriSense On IOS (Free)
+                    Download AgriSense On iOS (Free)
                   </span>
                 </motion.a>
-                <p className="ml-4 mt-2 text-xs text-gray-500 dark:text-gray-400">Open twice to activate location services</p>
+
+                {/* iOS Coffee Cherry Counter Download Button */}
+                <motion.a
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  href="https://apps.apple.com/hn/app/coffee-cherry-counter/id6738309350?l=en-GB"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] w-full max-w-sm"
+                >
+                  <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+                  <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-white px-6 text-sm font-medium text-primary backdrop-blur-3xl dark:bg-gray-950">
+                    <svg className="h-5 w-5 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+                    </svg>
+                    Download Coffee Cherry Counter iOS (Free)
+                  </span>
+                </motion.a>
+
+                <p className="ml-4 mt-3 text-xs text-gray-500 dark:text-gray-400">Open twice to activate location services</p>
               </motion.div>
 
               {/* Pro Access Section */}
@@ -141,7 +162,7 @@ export default function CardHero() {
                   className="group relative inline-flex h-12 overflow-hidden rounded-full bg-primary px-6 py-2 hover:bg-primary/90"
                 >
                   <div className="absolute -inset-[20px] bg-primary/10 [mask-image:radial-gradient(farthest-side_at_top,white,transparent)] group-hover:animate-[spotlight_1s_ease_forwards]" />
-                  <span className="relative flex items-center justify-center text-sm font-medium text-white hidden md:block ">
+                  <span className="relative flex items-center justify-center text-sm font-medium text-white">
                     Get Pro Access
                     <svg className="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24">
                       <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13.75 6.75L19.25 12L13.75 17.25M19 12H4.75"/>
@@ -163,64 +184,6 @@ export default function CardHero() {
               </motion.div>
             </motion.div>
           </div>
-          
-          {/* Image Section with Parallax Effect */}
-          <div className="w-full px-4 lg:w-1/2">
-            <motion.div
-              variants={slideIn("right", "tween", 0.2, 1)}
-              className="relative z-30 mx-auto h-[500px] w-full max-w-[700px] lg:ml-0"
-            >
-              {/* Top Image Card */}
-              <motion.div
-                variants={fadeIn("left", "tween", 0.3, 1)}
-                className="absolute top-0 right-0 overflow-hidden rounded-xl bg-white p-1 dark:bg-gray-950"
-              >
-                <motion.div
-                  whileHover={{ scale: 1.05 }}
-                  className="overflow-hidden rounded-lg"
-                >
-                  <img
-                    src="/images/image-2.png"
-                    alt="Smart farming visualization"
-                    className="w-[320px] object-cover rounded-lg transition-all duration-300"
-                  />
-                </motion.div>
-                <div className="absolute -top-1 -right-1 -z-10 h-full w-full rounded-xl bg-gradient-to-br from-primary/20 via-primary/0 to-primary/20 p-px backdrop-blur-sm">
-                  <div className="h-full w-full rounded-xl bg-white dark:bg-gray-950" />
-                </div>
-                <div className="absolute top-3 right-3 flex h-4 w-4">
-                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
-                  <span className="relative inline-flex h-4 w-4 rounded-full bg-primary" />
-                </div>
-              </motion.div>
-
-              {/* Bottom Image Card */}
-              <motion.div
-                variants={fadeIn("left", "tween", 0.4, 1)}
-                className="absolute left-0 bottom-0 z-10 overflow-hidden rounded-xl bg-white p-1 dark:bg-gray-950"
-              >
-                <motion.div
-                  whileHover={{ scale: 1.05 }}
-                  className="overflow-hidden rounded-lg"
-                >
-                  <img
-                    src="/images/image-1.png"
-                    alt="Coffee plant analysis"
-                    className="w-[280px] object-cover rounded-lg transition-all duration-300"
-                  />
-                </motion.div>
-                <div className="absolute -top-1 -right-1 -z-10 h-full w-full rounded-xl bg-gradient-to-br from-primary/20 via-primary/0 to-primary/20 p-px backdrop-blur-sm">
-                  <div className="h-full w-full rounded-xl bg-white dark:bg-gray-950" />
-                </div>
-                <div className="absolute -bottom-2 -right-2 inline-flex items-center justify-center rounded-full border-2 border-white bg-green-500 p-1 dark:border-gray-950">
-                  <svg className="h-3 w-3 text-white" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                </div>
-              </motion.div>
-            </motion.div>
-          </div>
-         
         </div>
       </div>
 
@@ -373,4 +336,3 @@ export default function CardHero() {
     </motion.section>
   );
 }
-

@@ -166,7 +166,7 @@ By analyzing these results, users can derive valuable insights into environmenta
 
 ### Indicators Used and Their Ranges
 
-1. **Crop Health (Normalized Difference Vegetation Index)**:
+1. **Crop Health **:
 
    - **Purpose**: Measures vegetation health and density.
    - **Typical Range**: -1 to 1
@@ -175,7 +175,7 @@ By analyzing these results, users can derive valuable insights into environmenta
        - Values around 0 suggest barren or sparse vegetation (e.g., urban areas, rock surfaces).
        - Negative values indicate water, snow, or clouds.
 
-2. **Water Stress (Normalized Difference Water Index)**:
+2. **Water Stress **:
 
    - **Purpose**: Assesses water content in vegetation and soil.
    - **Typical Range**: -1 to 1
@@ -183,7 +183,7 @@ By analyzing these results, users can derive valuable insights into environmenta
        - Positive values usually indicate high water content in vegetation.
        - Values near 0 or negative suggest low moisture content, possibly indicating drought conditions or non-vegetated surfaces.
 
-3. **Plant Humidity (Normalized Difference Moisture Index)**:
+3. **Plant Humidity **:
 
    - **Purpose**: Evaluates vegetation moisture content.
    - **Typical Range**: -1 to 1
@@ -192,7 +192,7 @@ By analyzing these results, users can derive valuable insights into environmenta
        - Near-zero values indicate moderate to low moisture content.
        - Negative values may indicate dry conditions or non-vegetated areas.
 
-4. **Ground temperature (Ground  Temperature)**:
+4. **Ground Temperature**:
    - **Purpose**: Measures surface temperature, influencing plant stress.
    - **Typical Range**: Varies widely based on geographic and climatic conditions, commonly:
      - Ranges from below 250 Kelvin (cold areas) to above 320 Kelvin (hot desert regions).
