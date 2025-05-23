@@ -184,6 +184,62 @@ export default function CardHero() {
               </motion.div>
             </motion.div>
           </div>
+               {/* Image Section with Parallax Effect */}
+          <div className="w-full px-4 lg:w-1/2">
+            <motion.div
+              variants={slideIn("right", "tween", 0.2, 1)}
+              className="relative z-30 mx-auto h-[500px] w-full max-w-[700px] lg:ml-0"
+            >
+              {/* Top Image Card */}
+              <motion.div
+                variants={fadeIn("left", "tween", 0.3, 1)}
+                className="absolute top-0 right-0 overflow-hidden rounded-xl bg-white p-1 dark:bg-gray-950"
+              >
+                <motion.div
+                  whileHover={{ scale: 1.05 }}
+                  className="overflow-hidden rounded-lg"
+                >
+                  <img
+                    src="/images/image-2.png"
+                    alt="Smart farming visualization"
+                    className="w-[320px] object-cover rounded-lg transition-all duration-300"
+                  />
+                </motion.div>
+                <div className="absolute -top-1 -right-1 -z-10 h-full w-full rounded-xl bg-gradient-to-br from-primary/20 via-primary/0 to-primary/20 p-px backdrop-blur-sm">
+                  <div className="h-full w-full rounded-xl bg-white dark:bg-gray-950" />
+                </div>
+                <div className="absolute top-3 right-3 flex h-4 w-4">
+                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
+                  <span className="relative inline-flex h-4 w-4 rounded-full bg-primary" />
+                </div>
+              </motion.div>
+
+              {/* Bottom Image Card */}
+              <motion.div
+                variants={fadeIn("left", "tween", 0.4, 1)}
+                className="absolute left-0 bottom-0 z-10 overflow-hidden rounded-xl bg-white p-1 dark:bg-gray-950"
+              >
+                <motion.div
+                  whileHover={{ scale: 1.05 }}
+                  className="overflow-hidden rounded-lg"
+                >
+                  <img
+                    src="/images/image-1.png"
+                    alt="Coffee plant analysis"
+                    className="w-[280px] object-cover rounded-lg transition-all duration-300"
+                  />
+                </motion.div>
+                <div className="absolute -top-1 -right-1 -z-10 h-full w-full rounded-xl bg-gradient-to-br from-primary/20 via-primary/0 to-primary/20 p-px backdrop-blur-sm">
+                  <div className="h-full w-full rounded-xl bg-white dark:bg-gray-950" />
+                </div>
+                <div className="absolute -bottom-2 -right-2 inline-flex items-center justify-center rounded-full border-2 border-white bg-green-500 p-1 dark:border-gray-950">
+                  <svg className="h-3 w-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                </div>
+              </motion.div>
+            </motion.div>
+          </div>
         </div>
       </div>
 
