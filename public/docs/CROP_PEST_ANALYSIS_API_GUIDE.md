@@ -122,7 +122,7 @@ The API returns a JSON object containing insights into various environmental con
 - **Insights**: Offers assessments on air quality, crop health, drought risk, fire prevention, flood risk, and pest risk.
 - **Atmospheric Data**: Presents levels of NO2, O3, and SO2.
 - **Indicators (Plant Humidity, Crop Health, Water Stress)**: Provides mean, median, and standard deviation for each index, indicating vegetation health and water content.
-- **Ground temperature (Land Surface Temperature)**: Provides maximum, mean, and minimum values.
+-Ground temperature: Provides maximum, mean, and minimum values.
 
 By analyzing these results, users can derive valuable insights into environmental conditions affecting crops and pests in a given area. Adjust the request parameters to refine search results based on geographic and temporal specificity.
 
@@ -166,7 +166,7 @@ By analyzing these results, users can derive valuable insights into environmenta
 
 ### Indicators Used and Their Ranges
 
-1. **Crop Health **:
+1. **Crop Health**:
 
    - **Purpose**: Measures vegetation health and density.
    - **Typical Range**: -1 to 1
@@ -175,7 +175,7 @@ By analyzing these results, users can derive valuable insights into environmenta
        - Values around 0 suggest barren or sparse vegetation (e.g., urban areas, rock surfaces).
        - Negative values indicate water, snow, or clouds.
 
-2. **Water Stress **:
+2. **Water Stress**:
 
    - **Purpose**: Assesses water content in vegetation and soil.
    - **Typical Range**: -1 to 1
@@ -183,7 +183,7 @@ By analyzing these results, users can derive valuable insights into environmenta
        - Positive values usually indicate high water content in vegetation.
        - Values near 0 or negative suggest low moisture content, possibly indicating drought conditions or non-vegetated surfaces.
 
-3. **Plant Humidity **:
+3. **Plant Humidity**:
 
    - **Purpose**: Evaluates vegetation moisture content.
    - **Typical Range**: -1 to 1

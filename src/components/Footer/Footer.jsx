@@ -92,7 +92,7 @@ export default function Footer() {
       href="tel:+(1) 919 360 1119"
       className="text-base text-dark hover:text-primary dark:text-white dark:hover:text-primary"
     >
-      +(1)919 360 1119
+      +(1) 919 360 1119
     </a>
     <img src={whatsapp} alt="WhatsApp" className="w-5 h-5" />
   </div>
